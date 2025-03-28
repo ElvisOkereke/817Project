@@ -1,4 +1,3 @@
-# bank_server.py
 import socket
 import threading
 import json
@@ -33,9 +32,9 @@ class BankServer:
             os.makedirs("audit_logs")
             
         # Start the GUI in a separate thread
-        self.gui_thread = threading.Thread(target=self.setup_gui)
-        self.gui_thread.daemon = True
-        self.gui_thread.start()
+        #self.gui_thread = threading.Thread(target=self.setup_gui)
+        #self.gui_thread.daemon = True
+        #self.gui_thread.start()
     
     def setup_gui(self):
         self.root = tk.Tk()

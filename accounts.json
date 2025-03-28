@@ -1,0 +1,1 @@
+{"admin": {"password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3", "balance": 855.0, "transactions": [{"type": "deposit", "amount": 1000.0, "timestamp": "2025-03-21 17:09:59"}, {"type": "withdrawal", "amount": 12.0, "timestamp": "2025-03-21 17:10:09"}, {"type": "withdrawal", "amount": 133.0, "timestamp": "2025-03-21 17:10:23"}]}}
